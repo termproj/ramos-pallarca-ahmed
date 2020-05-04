@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="author" content="harrnish - ig@harrnish">
+      <link rel="icon" href="yourIconUrl" type="image/gif" sizes="16x16">
+      <title>Main</title>
+		
+      <!-- external stylesheet -->
+      <link rel="stylesheet" href="style.css">
+	  <link rel="stylesheet" href="sliders.css">
+	  
+	  <script src="slider.js"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+	  
+	  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+      <!-- bootstrapcdn -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+      <!-- icon pack -->
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+      <!-- google font -->
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+      <!-- jquery cdn -->
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+      <!-- tweenmax (greensock) cdn -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+      <!-- for on scroll animations -->
+    
+      <script src="wow.min.js"></script>
+</head>
+<body>
+      <div class="my-container">
+
+            <!-- NAVIGATION STARTS -->
+
+            <div class="nav">
+                  <div class="menu-open" style="color:white" size=10em>
+                        <ion-icon name="menu"></ion-icon>
+                  </div>
+                  <div class="brand">
+                        <span><a href="index.html"><img src="images/lugo.jpg"> </img></a></span>
+                  </div>
+                  <div class="cart">
+                        <ion-icon name="cart"></ion-icon>
+                  </div>
+                  <div class="menu">
+                        <div class="menu-close">
+                              <ion-icon name="close"></ion-icon>
+                        </div>
+                        <ul>
+							  <li><a href="index.html">Home</a></li>
+                              <li><a href="shop1.html">Shop</a></li>
+                              <li><a href="product1.html">Product</a></li>
+                              <li><a href="about.html">About Us</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <div class="media-menu">
+                              <ul>
+                                    <li><ion-icon name="logo-facebook"></ion-icon></li>
+                                    <li><ion-icon name="logo-instagram"></ion-icon></li>
+                                    <li><ion-icon name="logo-twitter"></ion-icon></li>
+                                    <li><ion-icon name="logo-pinterest"></ion-icon></li>
+                              </ul>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- NAVIGATION ENDS -->
+
+            <!-- HERO SECTION STARTS -->
+
+           <div class="carousel js-carousel">
+            <figure class="carousel__frame js-carousel__frame">
+                  <div class="carousel__slides js-carousel__slides">
+                       <img src="images/Slide1.jpg" class="carousel__item" />
+                        <img src="images/Slide2.jpg" class="carousel__item" />
+                        <img src="images/Slide3.jpg" class="carousel__item" />
+                        <img src="images/Slide4.jpg" class="carousel__item" />
+                        <img src="images/Slide5.jpg" class="carousel__item" />
+						<img src="images/Slide6.jpg" class="carousel__item" />
+						<img src="images/Slide7.jpg" class="carousel__item" />
+						<img src="images/Slide8.jpg" class="carousel__item" />
+						<img src="images/Slide9.jpg" class="carousel__item" />
+						<img src="images/Slide10.jpg" class="carousel__item" />
+                  </div>
+                  <button class="carousel__prev js-carousel__prev">
+                        <i class="fas fa-chevron-left"></i>
+                        </button>
+                  <button class="carousel__next js-carousel__next">
+                        <i class="fas fa-chevron-right"></i>
+                  </button>
+
+            </figure>
+      </div>
+
+            <!-- HERO SECTION ENDS -->
+
+            <!-- PRODUCT LIST STARTS -->
+
+            <div class="section prod-list">
+                  <div class="container-fluid">
+				  <center>
+							  <p id="produkto" style="margin-top:-40px">Products</p>
+				</center>
+				<div class="row some-cards">
+                              <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="0.5s">
+							  
+                                    <a href="product1.html">
+                                          <p id="price" style="text-align:center">USD $17.99</p>
+                                          <img src="images/ASH.jpg" alt="">
+                                          <p id="prod-desc" style="text-align:center">Ash</p>
+                                    </a>
+                              </div>
+                              <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="0.8s" >
+                                    <a href="product3.html">
+                                          <p id="price" style="text-align:center">USD $29.99</p>
+                                          <img src="images/hoodieorange.jpg" alt="">
+                                          <p id="prod-desc" style="text-align:center; margin-top:65px">Orange Hoodie</p>
+                                    </a>
+                              </div>
+                              <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="1.1s">
+                                    <a href="product1.html">
+                                          <p id="price" style="text-align:center">USD $17.99</p>
+                                          <img src="images/black.jpg" alt="">
+                                          <p id="prod-desc" style="text-align:center; margin-top:15px">Black</p>
+                                    </a>
+                              </div>
+                              <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="1.4s">
+                                    <a href="product2.html">
+                                          <p id="price" style="text-align:center">USD $24.99</p>
+                                          <img src="images/SleevesForest.jpg" alt="">
+                                          <p id="prod-desc" style="text-align:center; ; margin-top:35px">Plain Panda's Sleeves Forest</p>
+                                    </a>
+                              </div>
+                        </div>
+						<hr>
+				<!-- 1stcolumn -->
+                        <div class="row some-cards">
+                              <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="0.5s">
+							  
+                                    <a href="product3.html">
+                                          <p id="price" style="text-align:center">USD $29.99</p>
+                                          <img src="images/hoodieturquoise.jpg" alt="">
+                                          <p id="prod-desc" style="text-align:center; margin-top:100px">Turquoise Hoodie</p>
+                                    </a>
+                              </div>
+                              <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="0.8s" >
+                                    <a href="product1.html">
+                                          <p id="price" style="text-align:center">USD $17.99</p>
+                                          <img src="images/Celadon.jpg" alt="">
+                                          <p id="prod-desc" style="text-align:center; margin-top:20px">Celadon</p>
+                                    </a>
+                              </div>
+                              <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="1.1s">
+                                    <a href="product2.html">
+                                          <p id="price" style="text-align:center">USD $24.99</p>
+                                          <img src="images/sleevesnavy.jpg" alt="">
+                                          <p id="prod-desc" style="text-align:center; margin-top:57px">Plain Panda's Navy Sleeves</p>
+                                    </a>
+                              </div>
+                              <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="1.4s">
+                                    <a href="product1.html">
+                                          <p id="price" style="text-align:center">USD $17.99</p>
+                                          <img src="images/NAVY.jpg" alt="">
+                                          <p id="prod-desc" style="text-align:center; margin-top:10px">Plain Panda's Navy Shirt</p>
+                                    </a>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- PRODUCT LIST ENDS -->
+
+            <!-- BANNER SECTION STARTS -->
+
+            <div class="row prod-sec">
+                  <div class="col-lg-6 prod-img">
+                        <img src="images/image1.jpg" alt="">
+                  </div>
+
+                  <div class="col-lg-4 prod-desc">
+                        <br><br>
+                        <p class="wow fadeInUp" data-wow-delay="0.5s" style="font-size:30px"><br><br>"Don't be into trends. Don't make fashion own you, but you decide what you are, what you want to
+						express by the way you dress and the way to live." —Gianni Versace</p>
+                        <div class="link wow fadeInUp" data-wow-delay="0.6s">
+                              <a href="shop.html">shop now <ion-icon name="arrow-round-forward"></ion-icon></a>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- BANNER SECTION ENDS -->
+
+
+			<!-- About Us -->
+			<div class="container-fluid">
+                  
+
+                              <div class="link wow fadeInUp" data-wow-delay="0.6s">
+                                    <a href="shop.html">learn more <ion-icon name="arrow-round-forward"></ion-icon></a>
+                              </div>
+                        </div>
+               
+
+                  <div class="container-fluid">
+                       <center>
+							 <p class="wow fadeInUp" data-wow-delay="0.4s" ><h1 style="text-indent:20px">Get to know Plain Panda</h1></p>
+                              <div class=" prod wow fadeInUp" data-wow-delay="0.3s">
+								<div class="col-lg-6 prod wow fadeInUp" data-wow-delay="0.7s">
+                                    <p class="wow fadeInUp" style="font-family: Larsseit; font-size:20px; text-align:justify; margin-left:25px" data-wow-delay="0.4s">At Plain Panda, we’re about more than shirts. We’re about you and everything you love. 
+									The passion you share with your group, club, or team; the excitement you have for your event or cause; and the drive that makes your
+									business stand out from the rest. We believe that custom t-shirts do more than just make you look good - 
+									they help you feel good and inspire you to do good as well. We’re passionate about custom gear, but what
+									we love even more is helping you bring what you love to life. So let’s create something together.</p>
+								<div>
+                              </div>
+						</center>
+                        </div>
+                  </div>
+            </div>
+			<br><br>
+			<!-- about us ends -->
+
+            <!-- CATEGORIES SECTION STARTS -->
+
+            <div class="container-fluid">
+                  
+
+                  <div class="container-fluid">
+				  <center>
+				  <h1 style="text-indent:40px"> @plainpandaph </h1>
+				  </center>
+                        <div class="row some-cards">
+						
+                              <div class="col-lg-1"></div>
+
+								
+                              <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="0.7s">
+                                    <video style="margin-left:160px" width="1280" height="720" controls autoplay>
+									<source src="images/mowdel.mp4" type="video/mp4">
+									</video>
+                                    <p id="prod-desc"></p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- CATEGORIES SECTION ENDS -->
+
+            <br><br><br>
+
+            <!-- FOOTER STARTS -->
+
+            <div class="container-fluid footer">
+                  <div class="section container">
+                        <footer>
+                              <div class="row">
+                                    <div class="col-lg-3 block">
+                                          <p>Wordoutlet, 3581 Lunneta Street,
+                                          <br>
+                                          Siesta Key, Florida. 20002,
+                                          <br>
+                                          USA</p>
+                                    </div>
+                                    <div class="col-lg-3 block">
+                                          <a href="about.html"> <p>FAQs
+                                          <br>
+                                          Return Policy
+                                          <br>
+                                          Shipping</a></p>
+                                    </div>
+                                    <div class="col-lg-3 block">
+                                          <p>Careers
+                                          <br>
+                                          Community
+                                          <br>
+                                          Wholesale</p>
+                                    </div>
+                                    <div class="col-lg-3 block">
+                                          <div class="media">
+                                                <ul>
+                                                      <li><ion-icon name="logo-facebook"></ion-icon></li>
+                                                      <li><ion-icon name="logo-instagram"></ion-icon></li>
+                                                      <li><ion-icon name="logo-twitter"></ion-icon></li>
+                                                      <li><ion-icon name="logo-pinterest"></ion-icon></li>
+                                                </ul>
+                                          </div>
+                                    </div>
+                              </div>
+                        </footer>
+                  </div>
+            </div>
+
+            <!-- FOOTER ENDS -->
+
+      </div>
+
+      <script type="text/javascript">
+		
+		document.addEventListener('DOMContentLoaded', function() {
+      run();
+      });
+
+      function run() {
+            var slider = document.querySelector('.js-carousel');
+            lory(slider, {
+            infinite: 1,
+            enableMouseEvents: true,
+            classNameFrame: 'js-carousel__frame',
+            classNameSlideContainer: 'js-carousel__slides',
+            classNamePrevCtrl: 'js-carousel__prev',
+            classNameNextCtrl: 'js-carousel__next',      
+            });
+      }
+	  
+      //Scroll reveal animations
+
+      new WOW().init();
+
+      //Scroll activated background change
+      $(function() {
+            $(document).scroll(function() {
+                  var $nav = $(".nav");
+                  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+      });
+
+      //Toggle MENU
+
+      var t1 = new TimelineMax({paused: true});
+      t1.to(".menu", 0.5, {
+            left: "0%",
+            ease: Power2.easeInOut
+      });
+
+      t1.reverse();
+      $(document).on("click", ".menu-open", function() {
+            t1.reversed(!t1.reversed());
+      });
+      $(document).on("click", ".menu-close", function() {
+            t1.reversed(!t1.reversed());
+      });
+
+      </script>
+</body>
+</html>
